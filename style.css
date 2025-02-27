@@ -49,8 +49,13 @@ nav {
   margin: 0 16px;
 }
 
+.nav-center a:hover {
+  color: rgb(252, 75, 255);
+  transition: 0.5s;
+}
+
 main {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 h1 {
@@ -73,6 +78,11 @@ h1 .big-letter {
 
 .card {
   padding: 24px;
+}
+
+.card:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
 }
 
 .card img {
@@ -128,6 +138,10 @@ footer div {
 
   .nav-left {
     margin: auto;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
   }
 
   footer {
